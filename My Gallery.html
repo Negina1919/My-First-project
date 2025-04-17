@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery - Nava-ye Fekr</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background-color: #fdf9f3;
+      color: #1f2d3d;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f7f3ec;
+      padding: 20px 0;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #1f2d3d;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 280px;
+      height: 200px;
+      object-fit: cover;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #f7f3ec;
+      padding: 20px;
+      text-align: center;
+      border-top: 1px solid #ccc;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="My Gallery.html">My Gallery</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+    <h1>My Book Gallery</h1>
+  </header>
+
+  <main>
+    <p>Explore some images of our inspiring reading spaces and book collections.</p>
+    <div class="gallery">
+      <img src="35.jpeg" alt="Library 1">
+      <img src="40.jpg" alt="Books 1">
+      <img src="30.jpg" alt="Library Interior">
+      <img src="39.jpg" alt="Books 2">
+      <img src="38.jpg" alt="Reading Corner">
+      <img src="37.webp" alt="Books on shelf">
+    </div>
+  </main>
+
+  <footer>
+    Designed by Negina Sakhizada
+    2025
+  </footer>
+
+</body>
+</html>
